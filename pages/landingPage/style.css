@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:' Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #fff;
+}
+::-webkit-scrollbar{
+  width: 7px;
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #fff;
+  border-radius: 10px;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111;
+    padding: 10px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease; /* Add smooth background color transition */
+    z-index: 1;
+    opacity: .8;
+}
+
+.hrl{
+  background-color: #232323;
+  height: 8px;
+}
+
+header {
+  position: relative;
+  background-color: #111;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 1000; */
+}
+
+header img {
+  height: 50px;
+  padding: 0 4rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0 3rem;
+}
+
+nav li {
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #b3b3b3;
+  height: 100%;
+  position: relative;
+  transition: color .4s;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+nav a:hover {
+  color: #fff;
+  opacity: 1;
+  font-size: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+
+#banner{
+  color: white;
+  object-fit: contain;
+  height: 644px;
+  background-position: center center;
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.row_title{
+  padding: 10px;
+}
+.row_posters{
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+  justify-content: baseline;
+  gap: 0.6rem;
+}
+
+.row_posters img {
+  width: 300px;
+  height: auto;
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+
+.row_posters img:hover {
+  padding-right:0 1vw 0 1rem;
+  transform: scale(1.1);
+}
+
+
+
+
+/* ssvsvsvs */
+
+
+
+
+
